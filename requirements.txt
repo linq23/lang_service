@@ -1,0 +1,5 @@
+# Predict-only fastText build: prebuilt wheels for manylinux/musllinux on
+# x86_64 + aarch64, no numpy, <1 MB. The official `fasttext` sdist would need
+# g++ and pybind11 in the image just to run one predict() call.
+# Imports under the standard `fasttext` name.
+fasttext-predict==0.9.2.4
